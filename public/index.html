@@ -4,14 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta name="robots" content="index, follow">  
   <title>Sabda Agung Rotan</title>
-  <meta content="" name="description">
+  <meta content="Sabda Agung Rotan merupakan penyedia kerajinan rotan di jogja. Suplier kerajang rotan, bambu, eceng gondok, pandan, dan lain lain. Kotabaru, yogyakarta" name="description">
   <meta content="" name="keywords">
+  <meta name="google-site-verification" content="cpS45c_QCNheaEaXJZpCFwQyL6ghepGD9cIEOtDXUvw" />
 
    <!-- Favicons -->
-   <link href="assets/logo.png" rel="icon">
-   <link href="assets/logo.png" rel="apple-touch-icon">
+   <link href="/favicon.jpg" rel="icon">
+   <link href="/favicon.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,30 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
 
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBe93ONMfQO2P7lX4AMrKG4eUH7Dlz8LDk",
+      authDomain: "sabda-agung-rotan.firebaseapp.com",
+      projectId: "sabda-agung-rotan",
+      storageBucket: "sabda-agung-rotan.appspot.com",
+      messagingSenderId: "873592903628",
+      appId: "1:873592903628:web:401c3efdafbacf2efb2f69",
+      measurementId: "G-5WKVTPWLEC"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </head>
 
 <body>
@@ -41,10 +65,7 @@
         <i class="bi bi-phone d-flex align-items-center ms-4"><span>+62 813 2795 5040</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://www.instagram.com/sabdaagungrotan/" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
   </section><!-- End Top Bar -->
@@ -78,8 +99,8 @@
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-          <h2>Selamat Datang <br> Sabda Agung Rotan</span></h2>
-          <p>Sabda merupakan UMKM yang berlokasi di Yogyakarta yang menyediakan kerajinan berbahan dasar rotan. Usaha ini menyediakan berbagai produk yang menarik dan berkualitas dengan harga yang bersaing.</p>
+          <h2>Masih dalam Development <br> informasi mungkin tidak akurat</span></h2>
+          <p>Sabda Agung Rotan merupakan penyedia kerajinan rotan di Yogyakarta yang menyediakan kerajinan berbahan dasar rotan, bambu, eceng gondok, dan pandan. selain itu sabda agung rotan juga marupakan Suplier kerajang rotan, bambu, eceng gondok, pandan. Usaha ini menyediakan berbagai produk yang menarik dan berkualitas dengan harga yang bersaing.</p>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started">Mulai</a>
             <a href="assets\video\Face detection.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
@@ -138,14 +159,11 @@
         </div>
 
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
-
-
-
           <div class="row gy-4 portfolio-container">
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/produk_1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/produk_1.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/produk_1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/produk_1.jpg" class="img-fluid" alt="Keranjang kecil"></a>
                 <div class="portfolio-info">
                   <h4><a href="#" title="More Details">Keranjang kecil</a></h4>
                 </div>
@@ -154,7 +172,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/produk_2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/produk_2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/produk_2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/produk_2.jpg" class="img-fluid" alt="Keranjang besar"></a>
                 <div class="portfolio-info">
                   <h4><a href="#" title="More Details">Keranjang besar</a></h4>
                 </div>
@@ -163,7 +181,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/produk_3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/produk_3.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/produk_3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/produk_3.jpg" class="img-fluid" alt="Kursi rotan"></a>
                 <div class="portfolio-info">
                   <h4><a href="#" title="More Details">Kursi rotan</a></h4>
                 </div>
@@ -187,8 +205,7 @@
           <div class="col-lg-4">
             <div class="content px-xl-5">
               <h3>Frequently Asked <strong>Questions</strong></h3>
-              <p>
-                These are just a few possible FAQs that clients may ask an IT freelancer team. Depending on the specific needs of the client and the nature of the project, there may be additional questions to consider as well.              </p>
+              <p>pertanyaan umum yang sering diajukan oleh pelanggan</p>
             </div>
           </div>
 
@@ -200,12 +217,12 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <span class="num">1.</span>
-                    What kind of IT projects do you specialize in?
+                    Apakah bisa order kerajinan dengan desain kustom?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Our team specializes in a range of IT projects, including web development, software development, mobile app development, database management, network administration, and cybersecurity.                  </div>
+                    Bisa, tapi untuk custom order perlu minimal order 20 atau lebih.</div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -213,11 +230,11 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <span class="num">2.</span>
-                    How do you determine project timelines and budgets?                  </button>
+                    Apakah ada kerajinan yang dijual di toko tanpa perlu custom order?</button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    We work closely with our clients to understand their project requirements and constraints. Based on this information, we provide a detailed project proposal that outlines timelines, milestones, and budget estimates.                  </div>
+                    kami menjual berbagai produk kerajinan di toko yang bisa dibeli eceran, produk sperti berbagai macam keranjang, wadah, piring, dan hiasan.</div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -225,11 +242,11 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <span class="num">3.</span>
-                    What programming languages and technologies do you use?                  </button>
+                    Berapa harga kerajinan yang dijual</button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Our team has expertise in a range of programming languages and technologies, including HTML, CSS, JavaScript, Python, Java, PHP, Ruby on Rails, SQL, AWS, and Azure. We stay up-to-date with the latest industry trends and technologies to ensure we can deliver the best possible solutions for our clients.                  </div>
+                    harga kerajinan mulai dari 5 ribu, tapi umumnya sekitar 30 ribu. harga tergantung ukuran, bahan, kompleksitas, dan warna kerajinan.</div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -237,23 +254,22 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <span class="num">4.</span>
-                    Can you provide references or examples of past work?                  </button>
+                    berapa harga kerajinan custom order?</button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Yes, we can provide references and examples of past work upon request. We are proud of the work we have done for our clients and are happy to share our portfolio with potential clients.                  </div>
-                </div>
+                    harga custom order bisa di negosiasikan, tergantung ukuran, bahan, design, dan jumlah.                </div>
               </div><!-- # Faq item-->
 
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <span class="num">5.</span>
-                    How does your freelancer team communicate with clients during a project?                  </button>
+                    Berapa lama waktu yang dibutuhkan hingga custom order selesai? </button>
                 </h3>
                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    We use various communication channels such as email, instant messaging, and video conferencing to keep our clients informed about the progress of the project. We also provide regular status updates and are always available to answer any questions or concerns.                  </div>
+                    waktu pengerjaan tergantung ukuran, kompleksitas, dan jumlah order. sebagai refrensi, waktu pengerjaan untuk wadah hampers lebaran memerlukan waktu 3 bulan.            </div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -293,7 +309,7 @@
                           </div>
                           <div class="flex-grow-1 ms-3">
                               <h5 class="mb-1">WhatsApp</h5>
-                              <p>+62 813 2795 5040</p>
+                              <a href="https://wa.me/6281327955040">+62 813 2795 5040</a>
                           </div>
                       </div>
                       <hr class="hr-dotted mt-0">
@@ -303,7 +319,7 @@
                           </div>
                           <div class="flex-grow-1 ms-3">
                               <h5 class="mb-1">Email</h5>
-                              <p>sabdaAgung@gmail.com</p>
+                              <p>-</p>
                           </div>
                       </div>
                       <hr class="hr-dotted mt-0">
@@ -313,7 +329,7 @@
                           </div>
                           <div class="flex-grow-1 ms-3">
                               <h5 class="mb-1">Jam Buka</h5>
-                              <p>Senin - Sabtu, 09.00 AM - 16.00 PM</p>
+                              <p>Setiap hari, 08.00 AM - 9.00 PM</p>
                           </div>
                       </div>
                   </div>
